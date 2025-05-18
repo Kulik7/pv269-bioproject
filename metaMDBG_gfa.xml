@@ -73,9 +73,10 @@
             <param name="k_values" value="test_k_values.txt" />
             <param name="k_value" value="21" />
 
-            <output name="output_gfa" value="assemblyGraph_k21_4013bps.gfa" compare="sim_size"
-                delta="90" delta_frac="0.5">
-            </output>
+
+            <output name="output_gfa" value="assemblyGraph_k21_4013bps.gfa" />
+            <output name="output_gfa_noseq" value="assemblyGraph_k21_4013bps.noseq.gfa" />
+
         </test>
     </tests>
 
